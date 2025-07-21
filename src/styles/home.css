@@ -1,0 +1,394 @@
+.home-container {
+  font-family: 'Montserrat', sans-serif;
+  background: #fff;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-header {
+  background: black;
+  color: #fff;
+  padding: 2rem 1rem 1.5rem 1rem;
+  text-align: center;
+}
+
+.home-logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.home-title {
+  margin: 0.5rem 0 0.2rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.home-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.section-title {
+  color: #B80C09;
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.testimonials-section {
+  flex: 1;
+  padding: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.testimonials-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.testimonial-sector {
+  background: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(184,12,9,0.07);
+  padding: 1.2rem 1rem;
+  min-width: 270px;
+  max-width: 350px;
+  flex: 1 1 320px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sector-title {
+  color: #B80C09;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  font-weight: 600;
+}
+
+.testimonial-quote {
+  margin: 0 0 1.2rem 0;
+  padding-left: 0.7rem;
+  border-left: 3px solid #B80C09;
+  font-size: 1rem;
+  background: none;
+}
+
+.quote-text {
+  margin: 0 0 0.3rem 0;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.home-footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+}
+
+.home-nav {
+  margin: 1.5rem 0 1rem 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.home-nav button {
+  background: #fff;
+  color: #B80C09;
+  border: 2px solid #B80C09;
+  border-radius: 4px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.home-nav button:hover {
+  background: #B80C09;
+  color: #fff;
+}
+.case-search-form {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 2rem 0;
+  gap: 0.5rem;
+}
+.case-search-input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #B80C09;
+  border-radius: 4px;
+  width: 250px;
+  max-width: 80vw;
+}
+.case-search-btn {
+  background: #B80C09;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.intro-section, .services-section, .case-studies-section, .cta-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+.services-list, .case-studies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.service-card, .case-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 1rem;
+  flex: 1 1 250px;
+  min-width: 220px;
+  box-shadow: 0 1px 4px rgba(184,12,9,0.05);
+}
+.more-cases-btn, .cta-btn {
+  margin-top: 1rem;
+  background: #B80C09;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.page-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  background: #fff;
+  border-radius: 8px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.contact-form input, .contact-form textarea {
+  padding: 0.7rem;
+  border: 1px solid #B80C09;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.contact-form button {
+  background: #B80C09;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.capabilities-section, .intel-briefs-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem 1rem;
+  background: #fff7f6;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(184,12,9,0.05);
+}
+.capabilities-section ul {
+  list-style: disc inside;
+  padding-left: 1rem;
+}
+.intel-briefs-section .case-card {
+  border: 1px solid #eee;
+  background: #fff;
+  border-radius: 6px;
+  padding: 1rem;
+  flex: 1 1 250px;
+  min-width: 220px;
+  box-shadow: 0 1px 4px rgba(184,12,9,0.05);
+}
+
+/* Strategic Objectives */
+.idss-strategic-objectives {
+ max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem 1rem;
+  background: #fff7f6;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(184,12,9,0.05);
+}
+
+.idss-strategic-objectives h2 {
+  color: #B80C09;
+}
+.idss-strategic-objectives ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+.idss-strategic-objectives li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Operational Footprint */
+.idss-operational-footprint {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem 1rem;
+  background: #fff7f6;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(184,12,9,0.05);
+}
+.idss-operational-footprint h2 {
+  color: #B80C09;
+}
+.idss-operational-footprint ul {
+  padding-left: 1.5rem;
+}
+.idss-operational-footprint li {
+  margin-bottom: 1rem;
+}
+
+/* Tech Stack */
+.idss-tech-stack {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem 1rem;
+  background: #fff7f6;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(184,12,9,0.05);
+}
+.idss-tech-stack h2 {
+  color: #B80C09;
+}
+.idss-tech-stack ul {
+  padding-left: 1.5rem;
+}
+.idss-tech-stack li {
+  margin-bottom: 1rem;
+}
+
+/* Legal & Ethics */
+.idss-legal-ethics {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem 1rem;
+  background: #fff7f6;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(184,12,9,0.05);
+}
+.idss-legal-ethics h2 {
+  color: #B80C09;
+}
+.idss-legal-ethics ul {
+  padding-left: 1.5rem;
+}
+.idss-legal-ethics li {
+  margin-bottom: 1rem;
+}
+
+.home-footer {
+  background-color: #f5f5f5;
+  padding: 3rem 1.5rem;
+  font-size: 0.95rem;
+  color: #222;
+  border-top: 4px solid #B80C09;
+}
+
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-column {
+  flex: 1 1 220px;
+}
+
+.footer-column h4 {
+  color: #B80C09;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.footer-column p, 
+.footer-column ul {
+  margin: 0.2rem 0;
+  color: #444;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #B80C09;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+
+@media (max-width: 900px) {
+  .testimonials-list {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .testimonial-sector {
+    max-width: 95vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-header {
+    padding: 1.2rem 0.5rem;
+  }
+  .home-title {
+    font-size: 1.3rem;
+  }
+  .section-title {
+    font-size: 1.1rem;
+  }
+  .testimonial-sector {
+    padding: 0.9rem 0.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .services-list, .case-studies-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
